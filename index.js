@@ -39,7 +39,7 @@ const App = () => {
     setState("searchResults", queryResult.items);
   });
 
-  // Full Path To Guide
+  // Full Path To Guide From Relative Path
   const IHP_BASE_URL = "https://ihp.digitallyinduced.com/";
   function guidePath(path) {
     const htmlPath = path.replace(".markdown", ".html");
@@ -61,7 +61,7 @@ const App = () => {
         <ul>
           <${For} each=${() => state.searchResults}>
             ${(searchResult) =>
-      html`
+              html`
                 <li>
                   <a
                     target="_blank"
