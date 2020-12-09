@@ -1,11 +1,11 @@
-import debounce from "https://cdn.skypack.dev/underscore/modules/debounce";
-import { render } from "https://cdn.skypack.dev/solid-js/web";
-import html from "https://cdn.skypack.dev/solid-js/html";
+import debounce from "https://cdn.skypack.dev/pin/underscore@v1.12.0-SbbRwvcnn3j8cyGALdrC/mode=raw,min/modules/debounce";
+import { render } from "https://cdn.skypack.dev/pin/solid-js@v0.23.2-Hdhcf56TcwCjJ93WOLwJ/min/solid-js/web.js";
+import html from "https://cdn.skypack.dev/pin/solid-js@v0.23.2-Hdhcf56TcwCjJ93WOLwJ/min/solid-js/html.js";
 import {
   For,
   createState,
   createEffect
-} from "https://cdn.skypack.dev/solid-js";
+} from "https://cdn.skypack.dev/pin/solid-js@v0.23.2-Hdhcf56TcwCjJ93WOLwJ/min/solid-js.js";
 
 async function queryAPI(query) {
   const searchAttributes = [
