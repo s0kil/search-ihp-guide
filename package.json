@@ -1,0 +1,31 @@
+{
+  "name": "search-ihp-guide",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/s0kil/search-ihp-guide#readme",
+  "bugs": {
+    "url": "https://github.com/s0kil/search-ihp-guide/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s0kil/search-ihp-guide.git"
+  },
+  "license": "MIT",
+  "author": "s0kil",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node esbuild.config.js",
+    "build": "NODE_ENV=production node esbuild.config.js",
+    "serve": "python3 -m http.server --directory ./build/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "babel-preset-solid": "^0.24.2",
+    "esbuild": "^0.8.51",
+    "esbuild-plugin-babel": "^0.2.3",
+    "solid-js": "^0.24.7",
+    "underscore": "^1.12.0"
+  }
+}
