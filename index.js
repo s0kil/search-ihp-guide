@@ -1,4 +1,4 @@
-import debounce from "underscore/modules/debounce"
+import { debounce } from "debounce"
 import { For, createState, createEffect } from "solid-js"
 import { render } from "solid-js/web"
 
